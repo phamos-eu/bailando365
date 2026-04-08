@@ -5,6 +5,10 @@ app_description = "Bailando 365"
 app_email = "info@phamos.eu"
 app_license = "mit"
 
+website_route_rules = [
+    {"from_route": "/dance-events", "to_route": "dance_events"},
+]
+
 # Apps
 # ------------------
 
